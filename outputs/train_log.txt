@@ -1,0 +1,44 @@
+parameters: 79960
+epoch  1/25  train 24.772  val 21.787  (48s)
+epoch  2/25  train 9.865  val 6.597  (95s)
+epoch  3/25  train 3.894  val 3.020  (142s)
+epoch  4/25  train 2.085  val 1.993  (189s)
+epoch  5/25  train 1.362  val 1.514  (237s)
+epoch  6/25  train 0.975  val 0.989  (284s)
+epoch  7/25  train 0.722  val 0.969  (330s)
+epoch  8/25  train 0.600  val 0.670  (377s)
+epoch  9/25  train 0.461  val 0.620  (424s)
+epoch 10/25  train 0.368  val 0.613  (471s)
+epoch 11/25  train 0.331  val 0.508  (522s)
+epoch 12/25  train 0.275  val 0.547  (568s)
+epoch 13/25  train 0.241  val 0.422  (613s)
+epoch 14/25  train 0.204  val 0.400  (660s)
+epoch 15/25  train 0.176  val 0.412  (706s)
+epoch 16/25  train 0.158  val 0.399  (753s)
+epoch 17/25  train 0.136  val 0.387  (801s)
+epoch 18/25  train 0.120  val 0.369  (848s)
+epoch 19/25  train 0.111  val 0.367  (895s)
+epoch 20/25  train 0.104  val 0.375  (940s)
+epoch 21/25  train 0.098  val 0.357  (987s)
+epoch 22/25  train 0.094  val 0.363  (1032s)
+epoch 23/25  train 0.090  val 0.361  (1079s)
+epoch 24/25  train 0.088  val 0.364  (1125s)
+epoch 25/25  train 0.088  val 0.363  (1173s)
+{
+  "circle": {
+    "AP@0.5": 0.9875,
+    "n_gt": 417
+  },
+  "square": {
+    "AP@0.5": 0.9668,
+    "n_gt": 393
+  },
+  "triangle": {
+    "AP@0.5": 0.9917,
+    "n_gt": 411
+  },
+  "mAP@0.5": 0.982,
+  "precision": 0.9487,
+  "recall": 0.9844
+}
+done
